@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+#sidebar-wrapper ul li, #sidebar-wrapper ul li a{
+  font-family: 'Nunito', Sans-Serif;
+  font-weight: 700!important;
+}
+textarea#alamat{
+  height: 80px!important;
+}
+img#imgDisplayUser{
+  width: 80px!important;
+  height: 80px!important;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+}
+#img_preview{
+  max-height: 100px!important;
+}
+#alert_pelanggan {
+  color: #3A7547!important;
+}
+
+span.spanBadge{
+  cursor: pointer!important;
+}
+
+/* mobile version */
+@media (max-width : 750px){
+  a.btnTambah{
+    width: 100%;
+  }
+  #img_preview{
+    max-height: 180px!important;
+  }
+}
